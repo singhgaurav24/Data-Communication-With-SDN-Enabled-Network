@@ -18,7 +18,7 @@ class Graph
     map<int ,map<int,int>> adjList; //use extern
      //int->current node, int ->nextHope
 
-    Node *individual_Nodes; //It contains all the enformation about each nodes
+    Node *individual_Nodes; //It contains all the information about each nodes
 
 
     Graph(int v) :vertex {v}
